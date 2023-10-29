@@ -38,10 +38,28 @@ hr {
 
 .r1 {
   margin-top: 24em;
-  display: none;
 }
 
-@media (max-width: 768px) {
+
+/*MOB*/
+
+
+@media (max-width: 650px) {
+  .wrapper {
+      background-image: url('../images/home-mob2.jpg'); /* Замените на ваше изображение для планшетов */
+  }
+
+  .navbar-nav li a {
+    color: #7d8229; /* Задайте цвет текста (например, черный) */
+    font-size: 16px; /* Задайте размер шрифта */
+    text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+}
+
+/*TAB*/
+
+
+@media (min-width: 650px) and (max-width: 1168px) {
   .wrapper {
       background-image: url('../images/home-tab1.jpg'); /* Замените на ваше изображение для планшетов */
   }
