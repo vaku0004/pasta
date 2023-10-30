@@ -40,6 +40,27 @@ hr {
   margin-top: 24em;
 }
 
+.icon {
+  font-size: 56px;
+}
+
+.icon a {
+  color: #e3e4d6;
+}
+
+.icon i.left {
+  color: #7d8229;
+
+}
+
+.icon i.right {
+
+  color: #d1d1c9;
+}
+
+
+
+
 
 /*MOB*/
 
@@ -69,4 +90,5 @@ hr {
     font-size: 16px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
+
 }
