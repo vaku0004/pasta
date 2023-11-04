@@ -59,13 +59,15 @@ hr {
   color: #d1d1c9;
 }
 
-
-
+.c-tab,
+.c-mob {
+  display: none;
+}
 
 
 /*MOB*/
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
   /*
   .wrapper {
       background-image: url('../images/home-mob2.jpg'); 
@@ -77,15 +79,20 @@ hr {
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
 
+  .c-tab,
   .c-big {
     display: none;
+  }
+
+  .c-mob {
+    display: block;
   }
 }
 
 /*TAB*/
 
 
-@media (min-width: 650px) and (max-width: 1568px) {
+@media (min-width: 850px) and (max-width: 1568px) {
   /*
   .wrapper {
       background-image: url('../images/home-tab1.jpg'); 
@@ -97,8 +104,13 @@ hr {
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
 
-  .c-big {
+  .c-big,
+  .c-mob {
     display: none;
+  }
+
+  .c-tab {
+    display: block;
   }
 
 }
