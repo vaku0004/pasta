@@ -8,12 +8,13 @@ body {
 
 .wrapper {
     flex: 1;
-    background-image: url('../images/home-large6.jpg');
+    /*background-image: url('../images/home-large6.jpg');*/
     /*background-size: 100% 110%;*/
     background-position: center;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     background-size: cover;
+    background-image: url(../images/empty.jpg);
 }
 
 
@@ -64,31 +65,40 @@ hr {
 
 /*MOB*/
 
-
 @media (max-width: 650px) {
+  /*
   .wrapper {
-      background-image: url('../images/home-mob2.jpg'); /* Замените на ваше изображение для планшетов */
-  }
+      background-image: url('../images/home-mob2.jpg'); 
+  }*/
 
   .navbar-nav li a {
     color: #7d8229; /* Задайте цвет текста (например, черный) */
     font-size: 16px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
   }
+
+  .c-big {
+    display: none;
+  }
 }
 
 /*TAB*/
 
 
-@media (min-width: 650px) and (max-width: 1168px) {
+@media (min-width: 650px) and (max-width: 1568px) {
+  /*
   .wrapper {
-      background-image: url('../images/home-tab1.jpg'); /* Замените на ваше изображение для планшетов */
-  }
+      background-image: url('../images/home-tab1.jpg'); 
+  }*/
 
   .navbar-nav li a {
     color: #8b5011; /* Задайте цвет текста (например, черный) */
     font-size: 16px; /* Задайте размер шрифта */
     text-decoration: none; /* Убрать подчеркивание ссылок */
+  }
+
+  .c-big {
+    display: none;
   }
 
 }
