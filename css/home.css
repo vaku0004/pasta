@@ -33,8 +33,13 @@ hr {
 
 .navbar-nav li a {
   color: #e3e4d6; /* Задайте цвет текста (например, черный) */
-  font-size: 16px; /* Задайте размер шрифта */
+  font-size: 26px; /* Задайте размер шрифта */
   text-decoration: none; /* Убрать подчеркивание ссылок */
+}
+
+p {
+  color: #e3e4d6;
+  font-size: 26px; 
 }
 
 .r1 {
@@ -63,8 +68,13 @@ hr {
 .c-mob {
   display: none;
 }
-/*
-button {
+
+.nav-link img {
+  max-width: 170px; /* Установите желаемую максимальную ширину */
+  max-height: 170px; /* Установите желаемую максимальную высоту */
+}
+
+.click {
   background-color: transparent;
   border: 3px solid #d1d1c9;
   border-radius: 50%;
@@ -76,19 +86,21 @@ button {
   transition: all 0.3s;
   width: 200px;
   height: 80px;
+  margin-bottom: 60px;
+  margin-left: 2%;
 }
 
-button:hover {
+.click:hover {
   background-color: #c7c8c8;
   color: white;
 }
 
-button:active {
+.click:active {
   background-color: #2980b9;
   border-color: #2980b9;
   color: white;
 }
-*/
+
 
 
 /*MOB*/
@@ -112,6 +124,11 @@ button:active {
 
   .c-mob {
     display: block;
+  }
+
+  .nav-link img {
+    max-width: 110px; /* Установите желаемую максимальную ширину */
+    max-height: 110px; /* Установите желаемую максимальную высоту */
   }
 }
 
@@ -137,6 +154,11 @@ button:active {
 
   .c-tab {
     display: block;
+  }
+
+  .nav-link img {
+    max-width: 130px; /* Установите желаемую максимальную ширину */
+    max-height: 130px; /* Установите желаемую максимальную высоту */
   }
 
 
