@@ -4,6 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .wrapper {
@@ -69,7 +70,7 @@ p {
   display: none;
 }
 
-.nav-link img {
+.logobar {
   max-width: 170px; /* Установите желаемую максимальную ширину */
   max-height: 170px; /* Установите желаемую максимальную высоту */
 }
@@ -126,10 +127,24 @@ p {
     display: block;
   }
 
-  .nav-link img {
+  .navbar-brand img {
     max-width: 110px; /* Установите желаемую максимальную ширину */
     max-height: 110px; /* Установите желаемую максимальную высоту */
   }
+
+  .navbar-brand {
+    color: #c7c8c8;
+  }
+
+  .logoimg2 {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 40px;
+    margin: auto;
+  }
+
 }
 
 /*TAB*/
